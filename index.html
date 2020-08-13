@@ -5,12 +5,23 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Voting Information</title>
+  <title>Triangle</title>
 </head>
 <body>
   <div class="container">
     <div id="triangle">
       <h1>Triangle Logic</h1>
+      <h2>Insert the lengths of the three sides of a triangle, and this generator will tell you whether the length make up a Equilateral, Isoscele, or Scalene triangle. If the three submitted side lengths are unable to form a triangle, you will see a message that says, "NOT a triangle".</h2>
+      <form id="yourInfo">
+        <label for="side1">Side 1</label>
+        <input id="side1" type="text">
+        <label for="side2">Side 2</label>
+        <input id="side2" type="text">
+        <label for="side3">Side 3</label>
+        <input id="side3" type="text">
+        
+        <button type="submit" class="btn">Submit</button>
+      </form>
     <div id="results">
       
     </div>
